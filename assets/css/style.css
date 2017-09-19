@@ -1,0 +1,260 @@
+/* carousel */
+#quote-carousel
+{
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+
+/* Control buttons  */
+.carousel-control
+{
+    width: auto;
+}
+#quote-carousel .carousel-control
+{
+    background: none;
+    color: #222;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 185px;
+    opacity: 1;
+}
+.arrow-t {
+    background: #f53168;
+    background: -webkit-linear-gradient(left, #fd6f2e , #f53168);
+    background: -o-linear-gradient(right, #f53168, #fd6f2e);
+    background: -moz-linear-gradient(right,#f53168, #fd6f2e);
+    background: linear-gradient(to right, #fd6f2e, #f53168);
+    opacity: 1!important;
+    font-size: 17px;
+    padding: 6px;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    color: #fff;
+    text-align: center;
+    padding-top: 11px;
+}
+.prev-t {
+    padding-left: 4px;
+
+}
+.next-t {
+    padding-right: 2px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left
+{
+    left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right
+{
+    right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators
+{
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li
+{
+    background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active
+{
+    background: #333333;
+}
+
+/* End carousel */
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 3px;
+    width: 100%;
+    font-size: 47px;
+    margin-left: -17px;
+    color: #BC2E3A;
+}
+
+.slider-txt {
+    font-size: 16px;
+    color: #555;
+}
+.line {
+    border-bottom: 1px solid #329AC9;
+    margin: 0 3%;
+}
+.details_client {
+    list-style-type: none;
+    padding-left: 12px;
+    margin-top: 12px;
+    color: #555;
+}
+.ttl-testimonials {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 47px;
+    font-weight: 100;
+    color: #BC2E3A;
+    margin-bottom: 14px;
+}
+.testimonials-span {
+    text-align: center;
+    margin: auto 22%;
+    color: #999;
+    line-height: 25px;
+    font-size: 14px;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #quote-carousel
+    {
+        margin-bottom: 0;
+        padding: 0 40px 30px 40px;
+    }
+
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) {
+
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/*technologies_expert*/
+.ttl-tech__expert {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 47px;
+    font-weight: 100;
+    color: #BC2E3A;
+    margin-bottom: 51px;
+}
+.tech-name {
+    text-align: center;
+}
+.tech-exprt-bx {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    box-shadow: 0px 2px 1px 1px #C6C6C6;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    margin-bottom: 70px;
+}
+.tech-name {
+    text-align: center;
+    margin-top: 31px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #000;
+    margin-bottom: 0px;
+}
+.ios {
+    padding: 11% 0;
+}
+.anroid {
+    padding: 12%;
+}
+.laravel {
+    padding: 17% 0;
+}
+.shopify {
+    padding: 12%;
+}
+.wordpress {
+    padding: 14% 0;
+}
+.magento {
+     padding: 12% 0;
+ }
+.angular {
+    padding: 15% 0;
+}
+.node {
+    padding: 13% 0;
+}
+.opencart {
+    padding: 16% 0;
+}
+.prestashop {
+    padding: 13% 0px;
+}
+.drupal {
+    padding: 12% 0;
+}
+.joomla {
+    padding: 14% 0;
+}
+
+.tech-exprt-bx:hover .tech-name, .tech-exprt-bx img:hover .tech-name{
+    color:#bc2e3a;
+}
+
+.tech-exprt-bx:hover #ios{
+    content: url('../img/technolgy-red/ios-red.png');
+}
+.tech-exprt-bx:hover #anroid{
+    content: url('../img/technolgy-red/anroid-red.png');
+}
+.tech-exprt-bx:hover #laravel{
+    content: url('../img/technolgy-red/laravel-red.png');
+}
+.tech-exprt-bx:hover #shopify{
+    content: url('../img/technolgy-red/shopify-red.png');
+}
+.tech-exprt-bx:hover #wordpress{
+    content: url('../img/technolgy-red/wordpress-red.png');
+}
+.tech-exprt-bx:hover #magento{
+    content: url('../img/technolgy-red/magento-red.png');
+}
+.tech-exprt-bx:hover #angular{
+    content: url('../img/technolgy-red/angular-red.png');
+}
+.tech-exprt-bx:hover #node{
+    content: url('../img/technolgy-red/angularjs-red.png');
+}
+.tech-exprt-bx:hover #opencart{
+    content: url('../img/technolgy-red/opencart-red.png');
+}
+.tech-exprt-bx:hover #prestashop{
+    content: url('../img/technolgy-red/prestashop.png');
+}
+.tech-exprt-bx:hover #drupal{
+    content: url('../img/technolgy-red/drupal-red.png');
+}
+.tech-exprt-bx:hover #joomla{
+    content: url('../img/technolgy-red/joomla-red.png');
+}
