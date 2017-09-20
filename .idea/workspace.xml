@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85699f05-e642-487b-9a4d-ad6972fcdfc8" name="Default" comment="" />
+    <list default="true" id="85699f05-e642-487b-9a4d-ad6972fcdfc8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/testimonials.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/slider/slide1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/slider/slide2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/functions.php" afterPath="$PROJECT_DIR$/includes/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+    </list>
     <ignored path="webiots-testimonials.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,58 +35,84 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#247#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/includes/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="355" column="10" selection-start-line="355" selection-start-column="10" selection-end-line="355" selection-end-column="10" />
-              <folding>
-                <element signature="n#ionicon_list#0;n#WEBIOTSTestimonails#0;n#!!top" expanded="false" />
-                <marker date="1505796728913" expanded="true" signature="28719:28732" ph="..." />
-                <marker date="1505796728913" expanded="true" signature="28767:28811" ph="..." />
-                <marker date="1505796728913" expanded="true" signature="29883:30295" ph="..." />
-                <marker date="1505796728913" expanded="true" signature="29897:30295" ph="..." />
-                <marker date="1505796728913" expanded="true" signature="29926:30295" ph="..." />
-                <marker date="1505796728913" expanded="true" signature="29969:30295" ph="..." />
-                <marker date="1505796728913" expanded="true" signature="30003:30295" ph="..." />
-                <marker date="1505796728913" expanded="true" signature="30047:30295" ph="..." />
-                <marker date="1505796728913" expanded="true" signature="30147:30295" ph="..." />
-                <marker date="1505796728913" expanded="true" signature="31995:32008" ph="..." />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../videojs/includes/functions.php">
+        <entry file="file://$PROJECT_DIR$/includes/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="291" column="5" selection-start-line="291" selection-start-column="5" selection-end-line="291" selection-end-column="5" />
+              <folding>
+                <element signature="n#app_testimonials_callback#0;n#WEBIOTSTestimonails#0;n#!!top" expanded="false" />
+                <element signature="n#ajax_app_testimonials#0;n#WEBIOTSTestimonails#0;n#!!top" expanded="false" />
+                <marker date="1505897355174" expanded="true" signature="10311:10323" ph="..." />
+                <marker date="1505897355174" expanded="true" signature="23283:28122" ph="..." />
+                <marker date="1505897355174" expanded="true" signature="23362:28094" ph="..." />
+                <marker date="1505897355174" expanded="true" signature="23963:24215" ph="..." />
+                <marker date="1505897355174" expanded="true" signature="24040:24210" ph="..." />
+                <marker date="1505897355174" expanded="true" signature="26651:27808" ph="..." />
+                <marker date="1505897355174" expanded="true" signature="26817:26829" ph="..." />
+                <marker date="1505897355174" expanded="true" signature="26831:27794" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testimonials.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/testimonials.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="function.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/function.js">
+      <file leaf-file-name="slide1.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/slider/slide1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+            <state relative-caret-position="765">
+              <caret line="51" column="79" selection-start-line="48" selection-start-column="39" selection-end-line="51" selection-end-column="79" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slide2.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/slider/slide2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="655">
+              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+              <folding>
+                <marker date="1505897659476" expanded="true" signature="56:81" ph="..." />
+                <marker date="1505897659476" expanded="true" signature="56:1209" ph="..." />
+                <marker date="1505897659476" expanded="true" signature="81:1197" ph="..." />
+                <marker date="1505897659476" expanded="true" signature="193:1186" ph="..." />
+                <marker date="1505897659476" expanded="true" signature="250:1130" ph="..." />
+                <marker date="1505897659476" expanded="true" signature="328:343" ph="..." />
+                <marker date="1505897659476" expanded="true" signature="395:723" ph="..." />
+                <marker date="1505897659476" expanded="true" signature="756:1118" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -87,7 +124,10 @@
       <list>
         <option value="$PROJECT_DIR$/assets/js/function.js" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/templates/slider/slide1.php" />
+        <option value="$PROJECT_DIR$/assets/css/testimonials.css" />
         <option value="$PROJECT_DIR$/includes/functions.php" />
+        <option value="$PROJECT_DIR$/templates/slider/slide2.php" />
       </list>
     </option>
   </component>
@@ -132,11 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-      </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -145,7 +181,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webiots-testimonials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webiots-testimonials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webiots-testimonials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files" />
       </pane>
     </panes>
   </component>
@@ -158,6 +240,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -224,65 +307,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -585,41 +609,42 @@
       <workItem from="1505715227845" duration="181000" />
       <workItem from="1505715422934" duration="2048000" />
       <workItem from="1505722626244" duration="10113000" />
-      <workItem from="1505793709268" duration="3018000" />
+      <workItem from="1505793709268" duration="1359000" />
+      <workItem from="1505895017759" duration="2649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15360000" />
+    <option name="totallyTimeSpent" value="16350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21770833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -644,11 +669,52 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6001">
+          <caret line="353" column="50" selection-start-line="353" selection-start-column="50" selection-end-line="353" selection-end-column="50" />
+          <folding>
+            <element signature="n#app_testimonials_callback#0;n#WEBIOTSTestimonails#0;n#!!top" expanded="false" />
+            <element signature="n#ajax_app_testimonials#0;n#WEBIOTSTestimonails#0;n#!!top" expanded="false" />
+            <marker date="1505897355174" expanded="true" signature="10311:10323" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="23283:28122" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="23362:28094" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="23963:24215" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="24040:24210" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="26651:27808" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="26817:26829" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="26831:27794" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../videojs/includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="43" column="40" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="40" />
-          <folding>
-            <element signature="e#6#247#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -657,17 +723,16 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#ionicon_list#0;n#WEBIOTSTestimonails#0;n#!!top" expanded="false" />
-            <marker date="1505796728913" expanded="true" signature="28719:28732" ph="..." />
-            <marker date="1505796728913" expanded="true" signature="28767:28811" ph="..." />
-            <marker date="1505796728913" expanded="true" signature="29883:30295" ph="..." />
-            <marker date="1505796728913" expanded="true" signature="29897:30295" ph="..." />
-            <marker date="1505796728913" expanded="true" signature="29926:30295" ph="..." />
-            <marker date="1505796728913" expanded="true" signature="29969:30295" ph="..." />
-            <marker date="1505796728913" expanded="true" signature="30003:30295" ph="..." />
-            <marker date="1505796728913" expanded="true" signature="30047:30295" ph="..." />
-            <marker date="1505796728913" expanded="true" signature="30147:30295" ph="..." />
-            <marker date="1505796728913" expanded="true" signature="31995:32008" ph="..." />
+            <element signature="n#app_testimonials_callback#0;n#WEBIOTSTestimonails#0;n#!!top" expanded="false" />
+            <element signature="n#ajax_app_testimonials#0;n#WEBIOTSTestimonails#0;n#!!top" expanded="false" />
+            <marker date="1505897355174" expanded="true" signature="10311:10323" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="23283:28122" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="23362:28094" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="23963:24215" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="24040:24210" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="26651:27808" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="26817:26829" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="26831:27794" ph="..." />
           </folding>
         </state>
       </provider>
@@ -692,9 +757,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#247#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -702,9 +765,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#247#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -733,38 +794,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#247#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/display-posts-shortcode.2.8.0/display-posts-shortcode/display-posts-shortcode.php">
+    <entry file="file://$PROJECT_DIR$/assets/css/testimonials.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="355" column="10" selection-start-line="355" selection-start-column="10" selection-end-line="355" selection-end-column="10" />
+        <state relative-caret-position="237">
+          <caret line="291" column="5" selection-start-line="291" selection-start-column="5" selection-end-line="291" selection-end-column="5" />
           <folding>
-            <element signature="n#ionicon_list#0;n#WEBIOTSTestimonails#0;n#!!top" expanded="false" />
-            <marker date="1505796728913" expanded="true" signature="28719:28732" ph="..." />
-            <marker date="1505796728913" expanded="true" signature="28767:28811" ph="..." />
-            <marker date="1505796728913" expanded="true" signature="29883:30295" ph="..." />
-            <marker date="1505796728913" expanded="true" signature="29897:30295" ph="..." />
-            <marker date="1505796728913" expanded="true" signature="29926:30295" ph="..." />
-            <marker date="1505796728913" expanded="true" signature="29969:30295" ph="..." />
-            <marker date="1505796728913" expanded="true" signature="30003:30295" ph="..." />
-            <marker date="1505796728913" expanded="true" signature="30047:30295" ph="..." />
-            <marker date="1505796728913" expanded="true" signature="30147:30295" ph="..." />
-            <marker date="1505796728913" expanded="true" signature="31995:32008" ph="..." />
+            <element signature="n#app_testimonials_callback#0;n#WEBIOTSTestimonails#0;n#!!top" expanded="false" />
+            <element signature="n#ajax_app_testimonials#0;n#WEBIOTSTestimonails#0;n#!!top" expanded="false" />
+            <marker date="1505897355174" expanded="true" signature="10311:10323" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="23283:28122" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="23362:28094" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="23963:24215" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="24040:24210" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="26651:27808" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="26817:26829" ph="..." />
+            <marker date="1505897355174" expanded="true" signature="26831:27794" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/slider/slide1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="79" selection-start-line="48" selection-start-column="39" selection-end-line="51" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/slider/slide2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding>
+            <marker date="1505897659476" expanded="true" signature="56:81" ph="..." />
+            <marker date="1505897659476" expanded="true" signature="56:1209" ph="..." />
+            <marker date="1505897659476" expanded="true" signature="81:1197" ph="..." />
+            <marker date="1505897659476" expanded="true" signature="193:1186" ph="..." />
+            <marker date="1505897659476" expanded="true" signature="250:1130" ph="..." />
+            <marker date="1505897659476" expanded="true" signature="328:343" ph="..." />
+            <marker date="1505897659476" expanded="true" signature="395:723" ph="..." />
+            <marker date="1505897659476" expanded="true" signature="756:1118" ph="..." />
           </folding>
         </state>
       </provider>
