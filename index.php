@@ -19,14 +19,16 @@ define("TESTIMONAILS_PATH",dirname(__FILE__));
  * Plugin Base Directory
  **/
 define("TESTIMONAILS_DIR",basename(TESTIMONAILS_PATH));
-
+include_once(ABSPATH . 'wp-includes/pluggable.php');
 /**
  * You can disable RESTAPI2 only for old WP
  **/
 define("TESTIMONAILS_RESTAPI2",true);
 include('includes/functions.php');
 
-
+if (is_admin()) { //if admin include the admin specific functions
+    require_once(dirname( __FILE__ ).'/includes/options.php');
+}
 
 
 //Setup

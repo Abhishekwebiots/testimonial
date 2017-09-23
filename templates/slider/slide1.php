@@ -1,74 +1,68 @@
-<?php
+<section class="regular slider">'
+    <?php
 
-echo "<section>
-    <div class=\"slider-content\">
-        <div class=\"container\">
-            <div class='row'>
-                <div class='col-md-12'>
-                    <div class=\"carousel slide\" data-ride=\"carousel\" id=\"quote-carousel\">
+    while( $loop->have_posts() ) {
+        $loop->the_post();
+        ?>
+        <div class="slide">
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <?php
+                    if (has_post_thumbnail( $post->ID ) ) {
+                    $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'single-post-thumbnail');
+                    ?>
+                    <img src="<?php echo $image[0]; ?>" class="center-block rounded-circle z-depth-1 img-fluid">
 
-                    <!-- Carousel Slides / Quotes -->
-                    <div class=\"carousel-inner\">";
+                    <?php
+                    }else{ ?>
+                        <img src="http://lorempixel.com/250/250" class="center-block rounded-circle z-depth-1 img-fluid">
+                    <?php }
+                         ?>
+                </div>
 
-                        while( $loop->have_posts() ) {
-                        $loop->the_post();
+                <!--Content-->
+                <h3 class="mb-3"><?php echo get_post_meta($post->ID,"_testimonials_author_name", true); ?></h3>
+                <h6 class="mb-3 font-bold grey-text"><?php echo get_post_meta($post->ID, "_testimonials_designation", true); ?></h6>
+                <div class="social-icons">
+                    <ul class="list-inline">
+                        <?php
+                        $fburl = get_post_meta($post->ID, "_testimonials_fb_url", true);
+                        if(strlen($fburl)>0){
+                            ?>
+                            <li><a href="<?php echo $fburl; ?>" target="_blank"> <i class="fa fa-facebook" aria-hidden="true" ></i></a></li>
+                        <?php
+                        }
+                        $linkedurl = get_post_meta($post->ID, "_testimonials_linkedin_url", true);
+                        if(strlen($linkedurl)>0){
+                            ?>
+                            <li><a href="<?php echo $linkedurl; ?>" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <?php
+                        }
+                        $twitterurl = get_post_meta($post->ID, "_testimonials_twitter", true);
+                        if(strlen($twitterurl)>0){
+                            ?>
+                            <li><a href="<?php echo $twitterurl; ?>" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <?php
+                        }
                         ?>
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <?php echo get_post_meta($post->ID,"_testimonials_description", true); ?>
-                                    <br>
-                                    <div class="line"></div>
-                                    <div>
-                                        <ul class="details_client">
-                                            <li><?php echo get_post_meta($post->ID,"_testimonials_author_name", true); ?></li>
-                                            <li><?php echo get_post_meta($post->ID, "_testimonials_designation", true); ?></li>
-                                            <li><?php echo get_post_meta($post->ID, "_testimonials_profile_url", true); ?></li>
-                                            <li>
-                                                <?php $value_testimonials_rate = get_post_meta($post->ID, "_testimonials_rate", true);
-                                                if($value_testimonials_rate>0){
-                                                    for($i=0;$i<=$value_testimonials_rate;$i++){
-                                                        echo "<i class=\"fa fa-star\"></i>";
-                                                    } }
-                                                ?>
-                                            </li>
+                    </ul>
+                </div>
+                <p><i class="fa fa-quote-left"></i>  <?php echo get_post_meta($post->ID,"_testimonials_description", true); ?></p>
 
-
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 text-center">
-                                    <?php
-
-                                    if(get_post_meta($post->ID, "_testimonials_youtube", true)){
-                                        ?>
-                                        <iframe width="554" height="376" src="https://www.youtube.com/embed/<?php echo get_post_meta($post->ID, "_testimonials_youtube", true); ?>" frameborder="0" allowfullscreen></iframe>
-                                        <?php
-
-                                    }else{
-                                        if (has_post_thumbnail( $post->ID ) ) {
-                                            $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'single-post-thumbnail');
-                                            ?>
-                                            <img src="<?php echo $image[0]; ?>">
-
-                                            <?php
-                                        }
-
-                                    }
-                                    ?>
-                                </div>
-                            </div>
-
-                        </div>
-<?php
-
-}
-echo "</div>  <!-- Carousel Buttons Next/Prev -->
-                            <a data-slide=\"prev\" href=\"#quote-carousel\" class=\"left carousel-control\"><i class=\"fa fa-chevron-left arrow-t prev-t\"></i></a>
-                            <a data-slide=\"next\" href=\"#quote-carousel\" class=\"right carousel-control\"><i class=\"fa fa-chevron-right arrow-t next-t\"></i></a>
-                        </div>
-                    </div>
+                <!--Review-->
+                <div class="orange-text">
+                    <?php $value_testimonials_rate = get_post_meta($post->ID, "_testimonials_rate", true);
+                    if($value_testimonials_rate>0){
+                        for($i=0;$i<=$value_testimonials_rate;$i++){
+                            echo "<i class=\"fa fa-star\"></i>";
+                        } }
+                    ?>
                 </div>
             </div>
         </div>
-        </section>";
+        <?php
+    }
+    ?>
+
+</section>
