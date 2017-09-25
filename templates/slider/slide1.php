@@ -15,9 +15,9 @@
 
                     <?php
                     }else{ ?>
-                        <img src="http://lorempixel.com/250/250" class="center-block rounded-circle z-depth-1 img-fluid">
+                    <img src="http://lorempixel.com/250/250" class="center-block rounded-circle z-depth-1 img-fluid">
                     <?php }
-                         ?>
+                    ?>
                 </div>
 
                 <!--Content-->

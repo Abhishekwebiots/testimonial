@@ -299,19 +299,27 @@ function shortcode_webiots_testimonials( $atts ) {
 
 
     $slide = $atts['slide'];//Getting Slide Templates
-
+    $category = $atts['category'];
 
     global $wp_query,$post;
 
-    $atts = shortcode_atts( array(
-        'testimonials_name' => ''
-    ), $atts );
 
-    $loop = new WP_Query( array(
+    $args = array(
         'posts_per_page'    => -1,
         'post_type'         => 'app_testimonials',
+    );
+    if(strlen($category)>0){
+    $args['tax_query'] =  array(
+        'relation'     => 'AND',
+        array(
+            'taxonomy' => 'testimonial-category',
+            'field' => 'slug',
+            'terms' => $category,
+        )
+    );
+}
 
-    ) );
+    $loop = new WP_Query( $args );
 
     if( ! $loop->have_posts() ) {
         return false;
@@ -483,6 +491,7 @@ function testmonials_scripts_styles() {
     wp_register_style( 'font-awesome', 'http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' );
     wp_register_style( 'slick',plugins_url( 'assets/css/slick.css', dirname(__FILE__) ));
     wp_register_style( 'slick-theme',plugins_url( 'assets/css/slick-theme.css', dirname(__FILE__) ));
+    wp_register_style( 'testimonials',plugins_url( 'assets/css/testimonials.css', dirname(__FILE__) ));
 
 
 
@@ -625,4 +634,66 @@ if (isset( $_POST['submit_testimonials'] ) )
 
 
 
+}
+
+/*
+ * Load Testimonial by category
+ *
+ */
+
+function testimonial_category() {
+
+    register_taxonomy(
+        'testimonial-category',
+        'app_testimonials',
+        array(
+            'label' => __( 'Category' ),
+            'rewrite' => array( 'slug' => 'testimonial-category' ),
+            'hierarchical' => true,
+        )
+    );
+}
+add_action( 'init', 'testimonial_category' );
+
+
+
+/*
+ *
+ */
+
+/**
+ * Display a custom taxonomy dropdown in admin
+ */
+add_action('restrict_manage_posts', 'tsm_filter_post_type_by_taxonomy');
+function tsm_filter_post_type_by_taxonomy() {
+    global $typenow;
+    $post_type = 'app_testimonials'; // change to your post type
+    $taxonomy  = 'testimonial-category'; // change to your taxonomy
+    if ($typenow == $post_type) {
+        $selected      = isset($_GET[$taxonomy]) ? $_GET[$taxonomy] : '';
+        $info_taxonomy = get_taxonomy($taxonomy);
+        wp_dropdown_categories(array(
+            'show_option_all' => __("Show All {$info_taxonomy->label}"),
+            'taxonomy'        => $taxonomy,
+            'name'            => $taxonomy,
+            'orderby'         => 'name',
+            'selected'        => $selected,
+            'show_count'      => true,
+            'hide_empty'      => true,
+        ));
+    };
+}
+/**
+ * Filter posts by taxonomy in admin
+ */
+add_filter('parse_query', 'tsm_convert_id_to_term_in_query');
+function tsm_convert_id_to_term_in_query($query) {
+    global $pagenow;
+    $post_type = 'app_testimonials'; // change to your post type
+    $taxonomy  = 'testimonial-category'; // change to your taxonomy
+    $q_vars    = &$query->query_vars;
+    if ( $pagenow == 'edit.php' && isset($q_vars['post_type']) && $q_vars['post_type'] == $post_type && isset($q_vars[$taxonomy]) && is_numeric($q_vars[$taxonomy]) && $q_vars[$taxonomy] != 0 ) {
+        $term = get_term_by('id', $q_vars[$taxonomy], $taxonomy);
+        $q_vars[$taxonomy] = $term->slug;
+    }
 }

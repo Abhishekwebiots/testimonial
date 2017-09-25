@@ -1,13 +1,13 @@
-<section class="single slider">
+<section class="single wi-slider">
     <?php
 
     while( $loop->have_posts() ) {
         $loop->the_post();
         ?>
-            <div class="slide">
-                <div class="testimonial">
-                    <!--Avatar-->
-                    <div class="avatar">
+        <div class="wi-slide">
+            <div class="wi-testimonial">
+                <!--Avatar-->
+                <div class="wi-user-img">
                         <?php
                         if (has_post_thumbnail( $post->ID ) ) {
                             $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'single-post-thumbnail');
@@ -22,7 +22,7 @@
                     <h6><?php echo get_post_meta($post->ID,"_testimonials_designation", true); ?></h6>
                     <h3><b><?php echo get_post_meta($post->ID,"_testimonials_author_name", true); ?></b></h3>
 
-                    <div class="social-icons">
+                <div class="wi-social-icons">
                         <ul class="list-inline">
                             <?php
                             $fburl = get_post_meta($post->ID, "_testimonials_fb_url", true);
@@ -46,6 +46,7 @@
                             ?>
                         </ul>
                     </div>
+                <div class="wi-orange-text">
                     <?php $value_testimonials_rate = get_post_meta($post->ID, "_testimonials_rate", true);
                     if($value_testimonials_rate>0){
                         for($i=0;$i<=$value_testimonials_rate;$i++){
@@ -53,6 +54,7 @@
                         } }
                     ?>
                 </div>
+            </div>
             </div>
         <?php
     }

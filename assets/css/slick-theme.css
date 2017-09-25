@@ -23,7 +23,7 @@
     line-height: 0;
 
     position: absolute;
-    top: 200px;
+    top: 50%;
 
     display: block;
 
@@ -66,11 +66,12 @@
 .slick-prev:before,
 .slick-next:before
 {
-    /*font-family: '';*/
+    font-family: 'slick';
     font-size: 20px;
     line-height: 1;
+
     opacity: .75;
-    color: #000;
+    color: white;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -200,64 +201,4 @@
 {
     opacity: .75;
     color: black;
-}
-
-
-/**/
-
-.comments-list img,
-.img-fluid,
-.modal-dialog.cascading-modal.modal-avatar .modal-header,
-.reply-form img,
-.section-blog-fw .view img {
-    max-width: 100%;
-    height: auto
-}
-
-
-.slick-slide img, .avatar img {
-    width: 150px;
-    height: 150px;
-}
-.slick-slide img {
-    display: block;
-}
-
-.comments-list img, .img-fluid, .modal-dialog.cascading-modal.modal-avatar .modal-header, .reply-form img, .section-blog-fw .view img {
-    max-width: 100%;
-    height: auto;
-}
-#toast-container>div, .author-box, .badge, .btn, .card-wrapper .back, .card-wrapper .front, .card.card-cascade.wider .card-body, .card:not([class*=card-outline-]), .chip, .counter, .dropdown-content, .jumbotron, .md-pills .nav-link.active, .modal-dialog.cascading-modal .modal-c-tabs .nav-tabs, .modal-dialog.modal-notify .modal-header, .navbar, .pagination .active .page-link, .pricing-card .price .version, .section-blog-fw .view, .side-nav, .social-list, .z-depth-1 {
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
-}
-.rounded-circle {
-    border-radius: 50%;
-}
-
-.mb-3, .my-3 {
-    margin-bottom: 1rem!important;
-    margin-top: 1rem!important;
-    font-weight: bold;
-    text-align: center;
-}
-
-.grey-text {
-    color: #9e9e9e!important;
-}
-
-.orange-text {
-    color: #ff9800!important;
-    text-align: center;
-}
-
-a,a:hover{
-    box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-
-}
-
-.social-icons i{
-    color: #777;
-    font-size: 13px;
 }
