@@ -1,5 +1,4 @@
-
-<section class="regular slider">
+<section class="regular wi-slider">
     <?php
 
     while( $loop->have_posts() ) {

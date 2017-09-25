@@ -25,13 +25,11 @@ class WEBIOTSTestimonails{
         }
 
         /** register metabox for admin **/
-       // if(is_admin()){
-            add_action("admin_head",array($this,"admin_head_app_testimonails"),1);
-            add_action("add_meta_boxes",array($this,"metabox_app_testimonials"));
-            add_action("save_post",array($this,"metabox_app_testimonials_save"));
-           
-
-       // }
+      if(is_admin()){
+        add_action("admin_head",array($this,"admin_head_app_testimonails"),1);
+        add_action("add_meta_boxes",array($this,"metabox_app_testimonials"));
+        add_action("save_post",array($this,"metabox_app_testimonials_save"));
+      }
     }
 
 
@@ -92,15 +90,15 @@ class WEBIOTSTestimonails{
                 $hook,
                 "normal",
                 "high");
-             
-                     }
+
+        }
 
 
     }
     /** callback metabox for testimonials **/
     public function metabox_app_testimonials_callback($post)
     {
-       $this->testimonails_enqueue();
+        $this->testimonails_enqueue();
         wp_enqueue_style("thickbox");
         wp_nonce_field("metabox_app_testimonials_save","metabox_app_testimonials_nonce");
         printf("<table class=\"form-table\">");
@@ -125,70 +123,93 @@ class WEBIOTSTestimonails{
         printf("<tr><th scope=\"row\"><label for=\"testimonials_linkedin_url\">%s</label></th><td><input class=\"widefat\" placeholder=\"\" type=\"url\" id=\"testimonials_linkedin_url\" name=\"testimonials_linkedin_url\" value=\"%s\" /></td></tr>",__("Linkedin", "app-testimonails"), esc_attr($value_testimonials_linkedin_url));
         $value_testimonials_twitter = get_post_meta($post->ID, "_testimonials_twitter", true);
         printf("<tr><th scope=\"row\"><label for=\"testimonials_twitter\">%s</label></th><td ><input class=\"widefat\" placeholder=\"\" type=\"url\" id=\"testimonials_twitter\" name=\"testimonials_twitter\" value=\"%s\" /></td></tr>",__("Twitter", "app-testimonails"), esc_attr($value_testimonials_twitter));
-       // $value_testimonials_rate = get_post_meta($post->ID, "_testimonials_rate", true);
-       // printf("<tr><th scope=\"row\"><label for=\"testimonials_rate\">%s</label></th><td><input class=\"widefat\" placeholder=\"\" type=\"text\" id=\"testimonials_rate\" name=\"testimonials_rate\" value=\"%s\" /></td></tr>",__("Rating", "app-testimonails"), esc_attr($value_testimonials_rate));
-        
- $value_testimonials_rate = get_post_meta($post->ID, "_testimonials_rate", true);
- // var_dump($value_testimonials_rate);
-     printf("<tr><th scope=\"row\"><label for=\"testimonials_rate\">%s</label></th>",__("Rating", "app-testimonails"), esc_attr($value_testimonials_rate));
-     printf(" <td style=\"float: left;\">");
-if($value_testimonials_rate == "5") {
-printf("<input class=\"star star-5\" placeholder=\"\" type=\"radio\" id=\"star5\" checked name=\"testimonials_rate\"  value=\"5\" />
+        // $value_testimonials_rate = get_post_meta($post->ID, "_testimonials_rate", true);
+        // printf("<tr><th scope=\"row\"><label for=\"testimonials_rate\">%s</label></th><td><input class=\"widefat\" placeholder=\"\" type=\"text\" id=\"testimonials_rate\" name=\"testimonials_rate\" value=\"%s\" /></td></tr>",__("Rating", "app-testimonails"), esc_attr($value_testimonials_rate));
+
+        $value_testimonials_rate = get_post_meta($post->ID, "_testimonials_rate", true);
+        // var_dump($value_testimonials_rate);
+        printf("<tr><th scope=\"row\"><label for=\"testimonials_rate\">%s</label></th>",__("Rating", "app-testimonails"), esc_attr($value_testimonials_rate));
+        printf(" <td style=\"float: left;\">");
+        if($value_testimonials_rate == "5") {
+            printf("<input class=\"star star-5\" placeholder=\"\" type=\"radio\" id=\"star5\" checked name=\"testimonials_rate\"  value=\"5\" />
  <label class=\"star star-5\" for=\"star5\"></label>");
-}
-else{
-    printf("<input class=\"star star-5\" placeholder=\"\" type=\"radio\" id=\"star5\"  name=\"testimonials_rate\"  value=\"5\" />
+        }
+        else{
+            printf("<input class=\"star star-5\" placeholder=\"\" type=\"radio\" id=\"star5\"  name=\"testimonials_rate\"  value=\"5\" />
  <label class=\"star star-5\" for=\"star5\"></label>");
-}
+        }
 
-if($value_testimonials_rate == "4") {
- printf("<input class=\"star star-4\" checked placeholder=\"\" type=\"radio\" id=\"star4\" name=\"testimonials_rate\" value=\"4\" />
+        if($value_testimonials_rate == "4") {
+            printf("<input class=\"star star-4\" checked placeholder=\"\" type=\"radio\" id=\"star4\" name=\"testimonials_rate\" value=\"4\" />
  <label class=\"star star-4\" for=\"star4\"></label>");
-}
-else{
- printf("<input class=\"star star-4\" placeholder=\"\" type=\"radio\" id=\"star4\" name=\"testimonials_rate\" value=\"4\" />
+        }
+        else{
+            printf("<input class=\"star star-4\" placeholder=\"\" type=\"radio\" id=\"star4\" name=\"testimonials_rate\" value=\"4\" />
  <label class=\"star star-4\" for=\"star4\"></label>");
-}
+        }
 
 
-if($value_testimonials_rate == "3") {
-printf("<input class=\"star star-3\" checked placeholder=\"\" type=\"radio\" id=\"star3\" name=\"testimonials_rate\" value=\"3\" />
+        if($value_testimonials_rate == "3") {
+            printf("<input class=\"star star-3\" checked placeholder=\"\" type=\"radio\" id=\"star3\" name=\"testimonials_rate\" value=\"3\" />
  <label class=\"star star-3\" for=\"star3\"></label>");
-} 
-else {
-printf("<input class=\"star star-3\" placeholder=\"\" type=\"radio\" id=\"star3\" name=\"testimonials_rate\" value=\"3\" />
+        }
+        else {
+            printf("<input class=\"star star-3\" placeholder=\"\" type=\"radio\" id=\"star3\" name=\"testimonials_rate\" value=\"3\" />
  <label class=\"star star-3\" for=\"star3\"></label>");
-}
+        }
 
-if($value_testimonials_rate == "2") {
- printf("<input class=\"star star-2\" checked placeholder=\"\" type=\"radio\" id=\"star2\" name=\"testimonials_rate\" value=\"2\" />
+        if($value_testimonials_rate == "2") {
+            printf("<input class=\"star star-2\" checked placeholder=\"\" type=\"radio\" id=\"star2\" name=\"testimonials_rate\" value=\"2\" />
  <label class=\"star star-2\" for=\"star2\"></label>");
- }
- else {
-printf("<input class=\"star star-2\" placeholder=\"\" type=\"radio\" id=\"star2\" name=\"testimonials_rate\" value=\"2\" />
+        }
+        else {
+            printf("<input class=\"star star-2\" placeholder=\"\" type=\"radio\" id=\"star2\" name=\"testimonials_rate\" value=\"2\" />
  <label class=\"star star-2\" for=\"star2\"></label>");
- }
+        }
 
-if($value_testimonials_rate == "1") {
- printf("<input class=\"star star-1\" checked placeholder=\"\" type=\"radio\"  id=\"star1\" name=\"testimonials_rate\" value=\"1\" />
+        if($value_testimonials_rate == "1") {
+            printf("<input class=\"star star-1\" checked placeholder=\"\" type=\"radio\"  id=\"star1\" name=\"testimonials_rate\" value=\"1\" />
  <label class=\"star star-1\" for=\"star1\"></label>");
-     }
-     else {
- printf("<input class=\"star star-1\" placeholder=\"\" type=\"radio\"  id=\"star1\" name=\"testimonials_rate\" value=\"1\" />
+        }
+        else {
+            printf("<input class=\"star star-1\" placeholder=\"\" type=\"radio\"  id=\"star1\" name=\"testimonials_rate\" value=\"1\" />
  <label class=\"star star-1\" for=\"star1\"></label>");
-     }
+        }
 
         printf("</td>
         </tr>",__("Rating", "app-testimonails"), esc_attr($value_testimonials_rate));
-        
+
 
         printf("</table>");
 
     }
+/*
+ * Styles For the Backend
+ */
+
+    public function testimonails_enqueue()
+    {
+        wp_enqueue_media();
+        wp_register_style("ionicon", "//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css",array(),"1.2.4" );
+        wp_enqueue_style("ionicon");
+        wp_enqueue_script("app_testimonails", plugins_url("/",__FILE__) . "/js/admin.js", array("jquery","thickbox"),"1",true );
+        wp_register_style( 'stylecss',plugins_url( 'assets/css/style.css', dirname(__FILE__) ));
+        wp_enqueue_style("stylecss");
+        wp_register_style("font-awesome", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",array(),"1.2.4" );
+        wp_enqueue_style("font-awesome");
+
+
+    }
+
+
+
+    /*
+     * Registering Scripts and styles
+     */
 
     public function metabox_app_testimonials_save($post_id)
     {
-      //  var_dump($_REQUEST);
+
         // Check if our nonce is set.
         if (!isset($_POST["metabox_app_testimonials_nonce"]))
             return $post_id;
@@ -247,32 +268,11 @@ if($value_testimonials_rate == "1") {
         // Update the meta field.
         update_post_meta($post_id, "_testimonials_twitter", $post_testimonials_twitter);
 
-         $post_testimonials_rate = sanitize_text_field($_POST["testimonials_rate"] );
+        $post_testimonials_rate = sanitize_text_field($_POST["testimonials_rate"] );
         // Update the meta field.
         update_post_meta($post_id, "_testimonials_rate", $post_testimonials_rate);
         return true;
     }
-
-
-   
-
-    /** register css/js testimonails **/
-    public function testimonails_enqueue()
-    {
-        wp_enqueue_media();
-        wp_register_style("ionicon", "//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css",array(),"1.2.4" );
-        wp_enqueue_style("ionicon");
-        wp_enqueue_script("app_testimonails", plugins_url("/",__FILE__) . "/js/admin.js", array("jquery","thickbox"),"1",true );
-        wp_register_style( 'stylecss',plugins_url( 'assets/css/style.css', dirname(__FILE__) ));
-        wp_enqueue_style("stylecss");
-        wp_register_style("font-awesome", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",array(),"1.2.4" );
-        wp_enqueue_style("font-awesome");
-
-        
-    }
-
-
-
 
     function admin_head_app_testimonails($hooks){
         echo "<style type=\"text/css\">";
@@ -283,7 +283,9 @@ if($value_testimonials_rate == "1") {
 
 }
 
-
+/*
+ *  Load the testimonials class and plugins
+ */
 new WEBIOTSTestimonails();
 
 
@@ -297,6 +299,8 @@ function shortcode_webiots_testimonials( $atts ) {
 
 
     $slide = $atts['slide'];//Getting Slide Templates
+
+
     global $wp_query,$post;
 
     $atts = shortcode_atts( array(
@@ -313,36 +317,31 @@ function shortcode_webiots_testimonials( $atts ) {
         return false;
     }
     ob_start();
-if($slide=="slider1"){
-    include_once(TESTIMONAILS_PATH.'/templates/slider/slide1.php');
-}else if($slide=="slider2"){
-    include_once(TESTIMONAILS_PATH.'/templates/slider/slide2.php');
-}else if($slide=="slider3"){
-    include_once(TESTIMONAILS_PATH.'/templates/slider/slide3.php');
-}else if($slide=="slider4"){
-    include_once(TESTIMONAILS_PATH.'/templates/slider/slide4.php');
-}else{
-    include_once(TESTIMONAILS_PATH.'/templates/slider/slide1.php');
-}
+    if($slide=="slider1"){
+        include_once(TESTIMONAILS_PATH.'/templates/slider/slide1.php');
+    }else if($slide=="slider2"){
+        include_once(TESTIMONAILS_PATH.'/templates/slider/slide2.php');
+    }else if($slide=="slider3"){
+        include_once(TESTIMONAILS_PATH.'/templates/slider/slide3.php');
+    }else{
+        include_once(TESTIMONAILS_PATH.'/templates/slider/slide1.php');
+    }
     $output = ob_get_clean();
-    //print $output; // debug
+
     return $output;
 
 
 
     wp_reset_postdata();
 }
-/*
- * Registering Scripts and styles
- */
 
 
 function shortcode_webiots_testimonials_form() {
-$site_key = get_option('site_key');
-if(strlen($site_key) > 10) {
-      ?> <script src='https://www.google.com/recaptcha/api.js'></script>
-<?php }
-   
+    $site_key = get_option('site_key');
+    if(strlen($site_key) > 10) {
+        ?> <script src='https://www.google.com/recaptcha/api.js'></script>
+    <?php }
+
     ?>
 
 
@@ -360,7 +359,7 @@ if(strlen($site_key) > 10) {
             <!-- File Button -->
             <div class="form-group">
                 <label class="col-md-4 control-label" for="thumbnail">Upload Image</label>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <input id="thumbnail" name="thumbnail" class="input-file" type="file">
                 </div>
             </div>
@@ -368,7 +367,7 @@ if(strlen($site_key) > 10) {
             <!-- Textarea -->
             <div class="form-group">
                 <label class="col-md-4 control-label" for="testimonials_description">Description</label>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <textarea class="form-control" id="testimonials_description" name="testimonials_description"></textarea>
                 </div>
             </div>
@@ -452,15 +451,15 @@ if(strlen($site_key) > 10) {
                 </div>
             </div>
 
-        <?php    if(strlen($site_key) > 10) {  ?>
-  <div class="form-group">
-     <label class="col-md-4 control-label" for=""></label>
-     <div class="col-md-6">
-            <div class="g-recaptcha" data-sitekey="<?php echo $site_key; ?>"></div>
-  </div>
-</div>    
-<?php } ?>
-        <!-- Button -->
+            <?php    if(strlen($site_key) > 10) {  ?>
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for=""></label>
+                    <div class="col-md-6">
+                        <div class="g-recaptcha" data-sitekey="<?php echo $site_key; ?>"></div>
+                    </div>
+                </div>
+            <?php } ?>
+            <!-- Button -->
             <div class="form-group">
                 <label class="col-md-4 control-label" for="submit_testimonials"></label>
                 <div class="col-md-4">
@@ -478,14 +477,14 @@ if(strlen($site_key) > 10) {
 function testmonials_scripts_styles() {
 //Register Styles
 
-    
+
     wp_register_style( 'bootstrapcss', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' );
     wp_register_style( 'googlefonts', 'https://fonts.googleapis.com/css?family=Roboto' );
     wp_register_style( 'font-awesome', 'http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' );
     wp_register_style( 'slick',plugins_url( 'assets/css/slick.css', dirname(__FILE__) ));
     wp_register_style( 'slick-theme',plugins_url( 'assets/css/slick-theme.css', dirname(__FILE__) ));
-    wp_register_style( 'testimonials',plugins_url( 'assets/css/testimonials.css', dirname(__FILE__) ));
-    wp_register_style("font-awesome", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",array(),"1.2.4" );
+
+
 
     wp_enqueue_style( 'bootstrapcss' );
     wp_enqueue_style( 'googlefonts' );
@@ -493,7 +492,7 @@ function testmonials_scripts_styles() {
     wp_enqueue_style( 'slick' );
     wp_enqueue_style( 'slick-theme' );
     wp_enqueue_style( 'testimonials' );
-    wp_enqueue_style("font-awesome");
+
 //Register Scripts
     wp_register_script( 'bootstrapjs', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js',array(),'3.3.6',true);
     wp_register_script( 'slick', plugins_url( 'assets/js/slick.js', dirname(__FILE__) ),array(),'1.0',true);
@@ -504,12 +503,47 @@ function testmonials_scripts_styles() {
 
 
 }
+
+
+
+
+
+
+
+
+//load scripts
+function testmonials_scripts_styles1() {
+//Register Styles
+
+
+    wp_register_style( 'bootstrapcss', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' );
+    wp_register_style( 'googlefonts', 'https://fonts.googleapis.com/css?family=Roboto' );
+    wp_register_style( 'font-awesome', 'http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' );
+    wp_register_style( 'stylecss',plugins_url( 'assets/css/style.css', dirname(__FILE__) ));
+
+
+    wp_enqueue_style( 'bootstrapcss' );
+    wp_enqueue_style( 'googlefonts' );
+    wp_enqueue_style( 'font-awesome' );
+
+//Register Scripts
+
+    wp_register_script( 'jqueryjs', 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js',array(),'1.11.3',true);
+    wp_register_script( 'bootstrapjs', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js',array(),'3.3.6',true);
+    wp_register_script( 'functionjs', plugins_url( 'assets/js/function.js', dirname(__FILE__) ),array(),'1.0',true);
+    wp_enqueue_script('jqueryjs');
+    wp_enqueue_script( 'bootstrapjs' );
+    wp_enqueue_script( 'functionjs' );
+
+
+}
 /*
 * Funtion to Insert Testimonials From Frontend
 */
+include_once(ABSPATH . 'wp-includes/pluggable.php');
+
 if (isset( $_POST['submit_testimonials'] ) )
 {
-
 
     $testimonial_args = array(
 
@@ -526,6 +560,9 @@ if (isset( $_POST['submit_testimonials'] ) )
     // insert the post into the database
 
     $postid = wp_insert_post( $testimonial_args, $wp_error);
+
+
+    // var_dump($postid);
     // Sanitize the user input.
     $post_testimonials_name = sanitize_text_field($_POST["testimonials_name"] );
     // Update the meta field.
@@ -587,107 +624,5 @@ if (isset( $_POST['submit_testimonials'] ) )
     }
 
 
-}
-
-
-
-
-
-
-
-//load scripts
-function testmonials_scripts_styles1() {
-//Register Styles
-
-
-    wp_register_style( 'bootstrapcss', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' );
-    wp_register_style( 'googlefonts', 'https://fonts.googleapis.com/css?family=Roboto' );
-    wp_register_style( 'font-awesome', 'http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' );
-    wp_register_style( 'stylecss',plugins_url( 'assets/css/style.css', dirname(__FILE__) ));
-
-
-    wp_enqueue_style( 'bootstrapcss' );
-    wp_enqueue_style( 'googlefonts' );
-    wp_enqueue_style( 'font-awesome' );
-
-//Register Scripts
-
-    wp_register_script( 'jqueryjs', 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js',array(),'1.11.3',true);
-    wp_register_script( 'bootstrapjs', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js',array(),'3.3.6',true);
-    wp_register_script( 'functionjs', plugins_url( 'assets/js/function.js', dirname(__FILE__) ),array(),'1.0',true);
-    wp_enqueue_script('jqueryjs');
-    wp_enqueue_script( 'bootstrapjs' );
-    wp_enqueue_script( 'functionjs' );
-
 
 }
-/*
-* Funtion to Insert Testimonials From Frontend
-*/
-include_once(ABSPATH . 'wp-includes/pluggable.php');
-
- if (isset( $_POST['submit_testimonials'] ) )
- {
-
-     $testimonial_args = array(
-
-'post_title'    => $_POST['testimonials_name'],
-
-'post_content'  => $_POST['testimonials_description'],
-
-'post_status'   => 'pending',
-
-'post_type' => 'app_testimonials'
-
-);
-
- // insert the post into the database
-
- $postid = wp_insert_post( $testimonial_args, $wp_error);
-
-
-      // var_dump($postid);
-        // Sanitize the user input.
-        $post_testimonials_name = sanitize_text_field($_POST["testimonials_name"] );
-        // Update the meta field.
-        update_post_meta($postid, "_testimonials_name", $post_testimonials_name);
-        // Sanitize the user input.
-        $post_testimonials_description = esc_html($_POST["testimonials_description"] );
-        // Update the meta field.
-        update_post_meta($postid, "_testimonials_description", $post_testimonials_description);
-        // Sanitize the user input.
-        $post_testimonials_author_name = sanitize_text_field($_POST["testimonials_author_name"] );
-        // Update the meta field.
-        update_post_meta($postid, "_testimonials_author_name", $post_testimonials_author_name);
-        // Sanitize the user input.
-        $post_testimonials_designation = sanitize_text_field($_POST["testimonials_designation"] );
-        // Update the meta field.
-        update_post_meta($postid, "_testimonials_designation", $post_testimonials_designation);
-        // Sanitize the user input.
-        $post_testimonials_profile_url = sanitize_text_field($_POST["testimonials_profile_url"] );
-        // Update the meta field.
-        update_post_meta($postid, "_testimonials_profile_url", $post_testimonials_profile_url);
-        // Sanitize the user input.
-        $post_testimonials_youtube = sanitize_text_field($_POST["testimonials_youtube"] );
-        // Update the meta field.
-        update_post_meta($postid, "_testimonials_youtube", $post_testimonials_youtube);
-        // Sanitize the user input.
-        $post_testimonials_fb_url = sanitize_text_field($_POST["testimonials_fb_url"] );
-        // Update the meta field.
-        update_post_meta($postid, "_testimonials_fb_url", $post_testimonials_fb_url);
-        // Sanitize the user input.
-        $post_testimonials_linkedin_url = sanitize_text_field($_POST["testimonials_linkedin_url"] );
-        // Update the meta field.
-        update_post_meta($postid, "_testimonials_linkedin_url", $post_testimonials_linkedin_url);
-        // Sanitize the user input.
-        $post_testimonials_twitter = sanitize_text_field($_POST["testimonials_twitter"] );
-        // Update the meta field.
-        update_post_meta($postid, "_testimonials_twitter", $post_testimonials_twitter);
-
-         $post_testimonials_rate = sanitize_text_field($_POST["testimonials_rate"] );
-        // Update the meta field.
-        update_post_meta($postid, "_testimonials_rate", $post_testimonials_rate);
-
-        
-
-    }

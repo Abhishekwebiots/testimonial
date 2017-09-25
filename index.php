@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Testimonials Plugin For Webiots
+Plugin Name: Testimonials
 Plugin URI: https://www.webiots.com
 Description: Testimonials
 Version: 1.0
@@ -54,3 +54,10 @@ function register_shortcodes() {
     add_shortcode( 'webiots-testimonials', 'shortcode_webiots_testimonials' );
 }
 add_action( 'init', 'register_shortcodes' );
+
+/*
+ *   Lists
+ */
+
+// TODO Update Css
+
