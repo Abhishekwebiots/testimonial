@@ -297,9 +297,14 @@ new WEBIOTSTestimonails();
 function shortcode_webiots_testimonials( $atts ) {
 
 
-
+if(isset( $atts['slide'])){
     $slide = $atts['slide'];//Getting Slide Templates
-    $category = $atts['category'];
+}
+    if(isset( $atts['category'])) {
+        $category = $atts['category'];
+    }else{
+        $category ="";
+    }
 
     global $wp_query,$post;
 
@@ -331,6 +336,8 @@ function shortcode_webiots_testimonials( $atts ) {
         include_once(TESTIMONAILS_PATH.'/templates/slider/slide2.php');
     }else if($slide=="slider3"){
         include_once(TESTIMONAILS_PATH.'/templates/slider/slide3.php');
+    }else if($slide=="slider4"){
+        include_once(TESTIMONAILS_PATH.'/templates/slider/slide4.php');
     }else{
         include_once(TESTIMONAILS_PATH.'/templates/slider/slide1.php');
     }
@@ -486,7 +493,7 @@ function testmonials_scripts_styles() {
 //Register Styles
 
 
-    wp_register_style( 'bootstrapcss', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' );
+
     wp_register_style( 'googlefonts', 'https://fonts.googleapis.com/css?family=Roboto' );
     wp_register_style( 'font-awesome', 'http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' );
     wp_register_style( 'slick',plugins_url( 'assets/css/slick.css', dirname(__FILE__) ));
@@ -495,7 +502,7 @@ function testmonials_scripts_styles() {
 
 
 
-    wp_enqueue_style( 'bootstrapcss' );
+;
     wp_enqueue_style( 'googlefonts' );
     wp_enqueue_style( 'font-awesome' );
     wp_enqueue_style( 'slick' );
@@ -503,10 +510,10 @@ function testmonials_scripts_styles() {
     wp_enqueue_style( 'testimonials' );
 
 //Register Scripts
-    wp_register_script( 'bootstrapjs', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js',array(),'3.3.6',true);
+
     wp_register_script( 'slick', plugins_url( 'assets/js/slick.js', dirname(__FILE__) ),array(),'1.0',true);
     wp_register_script( 'slickfunction', plugins_url( 'assets/js/function.js', dirname(__FILE__) ),array(),'1.0',true);
-    wp_enqueue_script( 'bootstrapjs' );
+    wp_enqueue_script('jquery');
     wp_enqueue_script( 'slick' );
     wp_enqueue_script( 'slickfunction' );
 

@@ -1,28 +1,33 @@
-<section class="single wi-slider">
-    <?php
+<section  itemscope itemtype="http://schema.org/Product">
+    <div itemprop="name" content="product-reviews" class="single wi-slider">
+        <?php
+        $reviewCount = 0;
+        $aggretated_rating = 0;
 
-    while( $loop->have_posts() ) {
-        $loop->the_post();
-        ?>
-        <div class="wi-slide">
-            <div class="wi-testimonial">
-                <!--Avatar-->
-                <div class="wi-user-img">
+        while( $loop->have_posts() ) {
+
+            $loop->the_post();
+            ?>
+
+            <div class="wi-slide" itemprop="review" itemscope itemtype="http://schema.org/Review">
+                <div class="wi-testimonial"  itemprop="reviewBody">
+                    <div class="wi-user-img">
                         <?php
                         if (has_post_thumbnail( $post->ID ) ) {
                             $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'single-post-thumbnail');
                             ?>
-                            <img src="<?php echo $image[0]; ?>"    class="center-block rounded-circle single-img" alt="First sample avatar image">
+                            <img src="<?php echo $image[0]; ?>" class="center-block img-circle wi-single-img" itemprop="image" content="<?php echo $image[0]; ?>">
+
                             <?php
                         }
                         ?>
                     </div>
-                    <!--Content-->
-                    <p><i class="fa fa-quote-left"></i><?php echo get_post_meta($post->ID,"_testimonials_description", true); ?></p>
-                    <h6><?php echo get_post_meta($post->ID,"_testimonials_designation", true); ?></h6>
-                    <h3><b><?php echo get_post_meta($post->ID,"_testimonials_author_name", true); ?></b></h3>
-
-                <div class="wi-social-icons">
+                    <div class="wi-user-content">
+                            <p><i class="fa fa-quote-left"></i>  <?php echo get_post_meta($post->ID,"_testimonials_description", true); ?></p>
+                            <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                <h3 class="wi-mb-3"><b><?php echo get_post_meta($post->ID,"_testimonials_author_name", true); ?></b></h3></div>
+                    <h6 class="wi-mb-3 wi-font-bold wi-grey-text"><?php echo get_post_meta($post->ID, "_testimonials_designation", true); ?></h6>
+                    <div class="wi-social-icons">
                         <ul class="list-inline">
                             <?php
                             $fburl = get_post_meta($post->ID, "_testimonials_fb_url", true);
@@ -46,17 +51,43 @@
                             ?>
                         </ul>
                     </div>
-                <div class="wi-orange-text">
-                    <?php $value_testimonials_rate = get_post_meta($post->ID, "_testimonials_rate", true);
-                    if($value_testimonials_rate>0){
-                        for($i=0;$i<=$value_testimonials_rate;$i++){
+                  
+
+                    <!--Review-->
+                    <div class="wi-orange-text">
+                        <?php $value_testimonials_rate = get_post_meta($post->ID, "_testimonials_rate", true);
+
+
+                        if($value_testimonials_rate>0){
+                            for($i=1;$i<=$value_testimonials_rate;$i++){
+                                echo "<i class=\"fa fa-star\"></i>";
+                            } }else{
+                            $value_testimonials_rate =1;
                             echo "<i class=\"fa fa-star\"></i>";
-                        } }
-                    ?>
+                        }
+                        $aggretated_rating = intval($value_testimonials_rate)+$aggretated_rating;
+                        ?>
+                    </div>
+                    <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                        <meta itemprop="worstRating" content = "1"/>
+                        <meta itemprop="ratingValue" content = "<?php echo $value_testimonials_rate; ?>"/>
+                        <meta itemprop="bestRating" content="5"/>
+                    </div>
                 </div>
             </div>
             </div>
-        <?php
-    }
-    ?>
+            <?php
+            $reviewCount++;
+
+        }
+        ?>
+        <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+            <?php
+            $ratingValue = (int)($aggretated_rating/$reviewCount);
+            ?>
+            <meta itemprop="ratingValue" content="<?php echo $ratingValue; ?>"/>
+            <meta itemprop="reviewCount" content="<?php echo $reviewCount; ?>"/>
+        </div>
+    </div>
+
 </section>

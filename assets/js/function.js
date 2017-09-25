@@ -1,6 +1,6 @@
 jQuery(document).on('ready', function() {
     jQuery(".regular").slick({
-        dots: true,
+        dots: false,
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 3,
@@ -38,7 +38,7 @@ jQuery(document).on('ready', function() {
         ]
     });
     jQuery(".single").slick({
-        dots: true,
+        dots: false,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1
