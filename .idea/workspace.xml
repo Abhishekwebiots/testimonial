@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85699f05-e642-487b-9a4d-ad6972fcdfc8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/slider/slide4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/slick-theme.css" afterPath="$PROJECT_DIR$/assets/css/slick-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/testimonials.css" afterPath="$PROJECT_DIR$/assets/css/testimonials.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/function.js" afterPath="$PROJECT_DIR$/assets/js/function.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/functions.php" afterPath="$PROJECT_DIR$/includes/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/slider/slide1.php" afterPath="$PROJECT_DIR$/templates/slider/slide1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/slider/slide2.php" afterPath="$PROJECT_DIR$/templates/slider/slide2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/slider/slide3.php" afterPath="$PROJECT_DIR$/templates/slider/slide3.php" />
-    </list>
+    <list default="true" id="85699f05-e642-487b-9a4d-ad6972fcdfc8" name="Default" comment="" />
     <ignored path="webiots-testimonials.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,74 +12,39 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="webiots-testimonials" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/functions.php">
+      <file leaf-file-name="slick.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/slick.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="339" column="64" selection-start-line="339" selection-start-column="64" selection-end-line="339" selection-end-column="64" />
-              <folding>
-                <marker date="1506333986153" expanded="true" signature="8579:8591" ph="..." />
-                <marker date="1506333986153" expanded="true" signature="17434:17489" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slide2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/slider/slide2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slide4.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/slider/slide4.php">
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+            <state relative-caret-position="508">
+              <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="function.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/function.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slide1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/slider/slide1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="63" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slide3.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/slider/slide3.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="39" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -103,6 +58,48 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>latest_format</find>
+      <find>Configure FAQ</find>
+      <find>Background Color</find>
+      <find>shortcod</find>
+      <find>ba_re_</find>
+      <find>Answer</find>
+      <find>faq_cpt</find>
+      <find>re_</find>
+      <find>update_repeater_fields</find>
+      <find>&lt;text</find>
+      <find>textarea_field_id</find>
+      <find>$prefix.'re_t</find>
+      <find>&lt;textarea</find>
+      <find>add</find>
+      <find>short</find>
+      <find>shortco</find>
+      <find>&lt;br&gt;</find>
+      <find>img</find>
+      <find>add.</find>
+      <find>remove</find>
+      <find>remove.png</find>
+      <find>add.png</find>
+      <find>at-repater-block</find>
+      <find>table</find>
+      <find>repeater-table</find>
+      <find>text</find>
+      <find>type='text'</find>
+      <find>at-text</find>
+      <find>ST4_columns_content_only_faq_cpt</find>
+      <find>icon</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>wifaq</replace>
+      <replace>wi_faq</replace>
+      <replace>$prefix.'t</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\wamp64\www\plugin\wp-content\plugins\WooImporter-Latest</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -122,20 +119,34 @@
         <option value="$PROJECT_DIR$/../teamshowcase/index.php" />
         <option value="$PROJECT_DIR$/../webiots-teamshowcase/teamshowcase.php" />
         <option value="$PROJECT_DIR$/../webiots-teamshowcase/templates/slider/slide1.php" />
-        <option value="$PROJECT_DIR$/../webiots-teamshowcase/includes/functions.php" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/../webiots-faq/webiots-faq.php" />
-        <option value="$PROJECT_DIR$/../webiots-faq/includes/functions.php" />
         <option value="$PROJECT_DIR$/../test/test.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/assets/js/function.js" />
-        <option value="$PROJECT_DIR$/assets/css/testimonials.css" />
         <option value="$PROJECT_DIR$/assets/css/slick-theme.css" />
+        <option value="$PROJECT_DIR$/assets/css/testimonials.css" />
         <option value="$PROJECT_DIR$/templates/slider/slide2.php" />
-        <option value="$PROJECT_DIR$/templates/slider/slide1.php" />
-        <option value="$PROJECT_DIR$/templates/slider/slide3.php" />
-        <option value="$PROJECT_DIR$/includes/functions.php" />
         <option value="$PROJECT_DIR$/templates/slider/slide4.php" />
+        <option value="$PROJECT_DIR$/templates/slider/slide3.php" />
+        <option value="$PROJECT_DIR$/templates/slider/slide1.php" />
+        <option value="$PROJECT_DIR$/../wp-ds-faq-plus/wp-ds-faq.php" />
+        <option value="$PROJECT_DIR$/../wp-ds-faq-plus/ajax.php" />
+        <option value="$PROJECT_DIR$/../faq-and-answers/metabox/class-usage-demo.php" />
+        <option value="$PROJECT_DIR$/../faq-and-answers/faq-and-answers.php" />
+        <option value="$PROJECT_DIR$/../wi-faq/tinymce/tinymce.min.js" />
+        <option value="$PROJECT_DIR$/../wi-faq/metabox/class-usage-demo.php" />
+        <option value="$PROJECT_DIR$/../wi-faq/metabox/meta-box-class/my-meta-box-class.php" />
+        <option value="$PROJECT_DIR$/../wi-faq/metabox/meta-box-class/css/meta-box.css" />
+        <option value="$PROJECT_DIR$/../wi-faq/faq-and-answers.php" />
+        <option value="$PROJECT_DIR$/../webiots-faq/metabox/meta-box-class/css/meta-box.css" />
+        <option value="$PROJECT_DIR$/../webiots-faq/metabox/meta-box-class/my-meta-box-class.php" />
+        <option value="$PROJECT_DIR$/../webiots-faq/webiots-faq.php" />
+        <option value="$PROJECT_DIR$/../webiots-faq/metabox/class-usage-demo.php" />
+        <option value="$PROJECT_DIR$/../webiots-faq/includes/functions.php" />
+        <option value="$PROJECT_DIR$/../webiots-faq/templates/layout1.php" />
+        <option value="$PROJECT_DIR$/../webiots-teamshowcase/includes/functions.php" />
+        <option value="$PROJECT_DIR$/includes/functions.php" />
+        <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -155,16 +166,6 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -182,165 +183,43 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webiots-testimonials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webiots-testimonials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webiots-testimonials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webiots-testimonials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webiots-testimonials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webiots-testimonials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webiots-testimonials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webiots-testimonials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webiots-testimonials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webiots-testimonials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webiots-testimonials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webiots-testimonials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="webiots-testimonials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="webiots-testimonials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="webiots-testimonials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="webiots-testimonials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="webiots-testimonials" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="webiots-testimonials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="spider-faq" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-      </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,18 +232,40 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="SearchEverywhereHistoryKey" value="dsfaq&#9;FILE&#9;file://E:/wamp64/www/plugin/wp-content/plugins/wp-ds-faq-plus/wp-ds-faq.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\wamp64\www\plugin\wp-content\plugins" />
+      <recent name="E:\wamp64\www\plugin\wp-content\plugins\webiots-faq\includes" />
+      <recent name="E:\wamp64\www\plugin\wp-content\plugins\webiots-faq\metabox\meta-box-class\images" />
+      <recent name="E:\wamp64\www\plugin\wp-content\plugins\webiots-faq" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\plugin\wp-content\plugins\webiots-faq\metabox" />
+      <recent name="E:\wamp64\www\plugin\wp-content\plugins" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
@@ -687,13 +588,10 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -733,7 +631,17 @@
       <workItem from="1506069560080" duration="10539000" />
       <workItem from="1506137752190" duration="733000" />
       <workItem from="1506140356633" duration="11656000" />
-      <workItem from="1506311857958" duration="17686000" />
+      <workItem from="1506311857958" duration="21754000" />
+      <workItem from="1506402729405" duration="18000" />
+      <workItem from="1506402881169" duration="19620000" />
+      <workItem from="1506569954406" duration="1438000" />
+      <workItem from="1506571477726" duration="579000" />
+      <workItem from="1506572567639" duration="16000" />
+      <workItem from="1506572954704" duration="118000" />
+      <workItem from="1506573280440" duration="1000" />
+      <workItem from="1506573290407" duration="4000" />
+      <workItem from="1506657149624" duration="3022000" />
+      <workItem from="1506663430312" duration="1653000" />
     </task>
     <task id="LOCAL-00001" summary="Updates In Function and added slide templates">
       <created>1505897828163</created>
@@ -770,42 +678,51 @@
       <option name="project" value="LOCAL" />
       <updated>1506315025906</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updates to slides with rich snippet compitable">
+      <created>1506334100443</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1506334100443</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70754000" />
+    <option name="totallyTimeSpent" value="120369000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21770833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21770833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -822,10 +739,13 @@
     <MESSAGE value="Updates In Function and added slide templates" />
     <MESSAGE value="Updated Slide Templates" />
     <MESSAGE value="Added Category for testimonials&#10;Updated Slider with new css&#10;Updated Shortcode to display with category" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Category for testimonials&#10;Updated Slider with new css&#10;Updated Shortcode to display with category" />
+    <MESSAGE value="Updates to slides with rich snippet compitable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates to slides with rich snippet compitable" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -833,426 +753,573 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/slider/slide1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="20" selection-start-line="27" selection-start-column="19" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/slider/slide2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/../WooImporter/data/countries.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/functions.php">
+    <entry file="file://$PROJECT_DIR$/../WooImporter/WooImporter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6001">
-          <caret line="353" column="50" selection-start-line="353" selection-start-column="50" selection-end-line="353" selection-end-column="50" />
-          <folding>
-            <marker date="1506333986153" expanded="true" signature="8579:8591" ph="..." />
-            <marker date="1506333986153" expanded="true" signature="17434:17489" ph="..." />
-          </folding>
+        <state relative-caret-position="-2286">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../videojs/includes/functions.php">
+    <entry file="file://$PROJECT_DIR$/../WooImporter/includes/api/aliexpress/data/aliexpress_categories.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/function.js">
+    <entry file="file://$PROJECT_DIR$/../WooImporter/includes/WPEAE_AddonsPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        <state relative-caret-position="-357">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/../WooImporter/includes/WPEAE_Ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="43" column="40" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="40" />
+        <state relative-caret-position="-153">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/functions.php">
+    <entry file="file://$PROJECT_DIR$/../WooImporter/includes/WPEAE_DashboardPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1506333986153" expanded="true" signature="8579:8591" ph="..." />
-            <marker date="1506333986153" expanded="true" signature="17434:17489" ph="..." />
-          </folding>
+        <state relative-caret-position="-1836">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../videojs/includes/functions.php">
+    <entry file="file://$PROJECT_DIR$/../WooImporter/includes/WPEAE_Http.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/function.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/../WooImporter/includes/api/aliexpress/view/settings.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/../WooImporter/includes/api/aliexpress/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../videojs/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../videojs/includes/functions.php">
+    <entry file="file://$PROJECT_DIR$/../WooImporter/includes/api/aliexpress/plugin.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/slick.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="259" column="32" selection-start-line="259" selection-start-column="32" selection-end-line="259" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../themes/twentyseventeen/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="3250" column="23" selection-start-line="3250" selection-start-column="23" selection-end-line="3250" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../teamshowcase/teamshowcase.php" />
-    <entry file="file://$PROJECT_DIR$/../teamshowcase/index.php" />
-    <entry file="file://$PROJECT_DIR$/../webiots-teamshowcase/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../webiots-teamshowcase/templates/slider/slide1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../fakerpress/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../fakerpress/fakerpress.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../fakerpress/inc/class-fp-admin.php">
+    <entry file="file://$PROJECT_DIR$/../WooImporter/includes/api/aliexpress/WPEAE_AliexpressAccount.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+    <entry file="file://$PROJECT_DIR$/../WooImporter/includes/api/aliexpress/WPEAE_AliexpressConfigurator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+        <state relative-caret-position="-2303">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WooImporter/includes/api/aliexpress/WPEAE_AliexpressLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ali2woo/view/settings/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/aliexpress130/aliexpress130/ali2woo/ali2woo.php" />
+    <entry file="file://$PROJECT_DIR$/../ali2woo/includes/classes/A2W_WooCommerceOrderItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ali2woo/includes/classes/A2W_ResultBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ali2woo/includes/classes/A2W_Requests_Response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ali2woo/includes/classes/A2W_AbstractController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ali2woo/includes/classes/model/A2W_Woocommerce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="670" column="112" lean-forward="false" selection-start-line="670" selection-start-column="112" selection-end-line="670" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mb-term-meta/js/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../meta-box-group/meta-box-group.php" />
+    <entry file="file://$PROJECT_DIR$/../webiots-faq/includes/meta-box-group/group.js" />
+    <entry file="file://$PROJECT_DIR$/../webiots-faq/includes/meta-box/meta-box.php" />
+    <entry file="file://$PROJECT_DIR$/../meta-box-group/class-rwmb-group-field.php" />
+    <entry file="file://$PROJECT_DIR$/../webiots-faq/metabox/meta-box-class/css/meta-box.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="63" column="15" lean-forward="false" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../webiots-faq/metabox/meta-box-class/my-meta-box-class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="491" column="17" lean-forward="false" selection-start-line="491" selection-start-column="17" selection-end-line="491" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../faq-and-answers/faq-and-answers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3247">
+          <caret line="199" column="45" lean-forward="false" selection-start-line="199" selection-start-column="45" selection-end-line="199" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../webiots-faq/metabox/class-usage-demo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="45" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../webiots-faq/webiots-faq.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="187">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../display-posts-shortcode/display-posts-shortcode.php">
+    <entry file="file://$PROJECT_DIR$/templates/slider/slide1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="109" column="7" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../webiots-faq/templates/layout1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../js_composer/js_composer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../js_composer/include/templates/shortcodes/vc_btn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../webiots-faq/includes/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/options.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test/test.php" />
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#222#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../webiots-teamshowcase/teamshowcase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-          <folding />
+        <state relative-caret-position="2499">
+          <caret line="237" column="11" lean-forward="false" selection-start-line="237" selection-start-column="11" selection-end-line="237" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../webiots-teamshowcase/includes/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="357" column="0" selection-start-line="357" selection-start-column="0" selection-end-line="369" selection-end-column="46" />
+        <state relative-caret-position="145">
+          <caret line="372" column="0" lean-forward="false" selection-start-line="372" selection-start-column="0" selection-end-line="389" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../webiots-teamshowcase/teamshowcase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider-faq/js/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider-faq/spider_faq_category_functions.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider-faq/spider_faq_category_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1428044254000" expanded="true" signature="1263:1320" ph="SELECT COUNT... ${$wpdb-&gt;prefix}" />
+            <marker date="1428044254000" expanded="true" signature="1443:1539" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1428044254000" expanded="true" signature="1720:1784" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1428044254000" expanded="true" signature="3694:3756" ph="DELETE FROM " />
+            <marker date="1428044254000" expanded="true" signature="4101:4175" ph="SELECT publi... ${$wpdb-&gt;prefix}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider-faq/spider_faq_functions.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider-faq/spider_faq_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1428044254000" expanded="true" signature="76:128" ph="SELECT id,ti... ${$wpdb-&gt;prefix}" />
+            <marker date="1428044254000" expanded="true" signature="417:481" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1428044254000" expanded="true" signature="1864:1916" ph="SELECT COUNT... ${$wpdb-&gt;prefix}" />
+            <marker date="1428044254000" expanded="true" signature="2522:2586" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1428044254000" expanded="true" signature="2753:2817" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1428044254000" expanded="true" signature="5654:5716" ph="DELETE FROM " />
+            <marker date="1428044254000" expanded="true" signature="6035:6105" ph="SELECT publi... ${$wpdb-&gt;prefix}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider-faq/spider_faq_question_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1428645952000" expanded="true" signature="76:157" ph="SELECT order... ${$wpdb-&gt;prefix}" />
+            <marker date="1428645952000" expanded="true" signature="246:315" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1428645952000" expanded="true" signature="1721:1785" ph="SELECT `id`,... ${$wpdb-&gt;prefix}" />
+            <marker date="1428645952000" expanded="true" signature="4568:4635" ph="SELECT order... ${$wpdb-&gt;prefix}" />
+            <marker date="1428645952000" expanded="true" signature="4710:4777" ph="SELECT order... ${$wpdb-&gt;prefix}" />
+            <marker date="1428645952000" expanded="true" signature="5221:5278" ph="SELECT COUNT... ${$wpdb-&gt;prefix}" />
+            <marker date="1428645952000" expanded="true" signature="5910:5974" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1428645952000" expanded="true" signature="6154:6235" ph="SELECT order... ${$wpdb-&gt;prefix}" />
+            <marker date="1428645952000" expanded="true" signature="6316:6366" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1428645952000" expanded="true" signature="6540:6687" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1428645952000" expanded="true" signature="8713:8793" ph="SELECT `orde... ${$wpdb-&gt;prefix}" />
+            <marker date="1428645952000" expanded="true" signature="8825:8887" ph="SELECT MAX(o... ${$wpdb-&gt;prefix}" />
+            <marker date="1428645952000" expanded="true" signature="8964:9098" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1428645952000" expanded="true" signature="9642:9776" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1428645952000" expanded="true" signature="11702:11764" ph="DELETE FROM " />
+            <marker date="1428645952000" expanded="true" signature="12038:12113" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1428645952000" expanded="true" signature="12778:12852" ph="SELECT publi... ${$wpdb-&gt;prefix}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider-faq/spider_faq_theme_functions.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider-faq/spider_faq_theme_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider-faq/faq.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2091">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1490781638000" expanded="true" signature="1829:1889" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="2406:2455" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="2984:3048" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="3892:3941" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="4313:4377" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="4772:4832" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="5146:5203" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="5558:5615" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="5715:5772" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="6095:6160" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="6507:6572" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="6919:6968" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="7353:7417" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="7813:7877" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="8080:8142" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="8409:8469" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="8520:8708" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="9463:9512" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="9896:9936" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="10007:10195" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="10433:10621" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="10800:10829" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="11323:11383" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="11433:11621" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="11781:11811" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="12591:12779" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="12833:12873" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="13390:13452" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="13661:13730" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="13772:13960" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="14716:14765" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="15149:15189" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="15260:15448" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="15690:15878" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="16059:16089" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="16586:16646" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="16696:16884" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="17044:17074" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="17852:18040" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="18094:18134" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="18689:18751" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="18918:18978" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="19028:19093" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="19251:19281" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="20056:20121" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="20174:20214" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="20479:20544" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="21090:21150" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="21200:21265" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="21423:21453" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="22226:22291" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="22346:22386" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="22941:23003" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="23171:23231" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="23281:23346" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="23500:23530" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="24326:24366" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="24438:24503" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="24750:24815" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="25306:25366" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="25416:25481" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="25635:25665" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="26459:26524" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="26634:26674" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="27486:27664" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="27959:28138" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="28416:28592" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="28735:28902" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="29296:29520" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="29806:30031" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="30304:30526" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="30669:30882" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="31352:31531" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="31837:32017" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="32309:32486" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="32640:32808" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="33110:33334" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="33640:33865" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="34157:34380" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="34533:34746" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="35250:35476" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="35775:36002" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="36294:36518" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="36677:36892" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="37202:37474" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="37774:38047" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="38340:38609" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="38769:39029" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="46682:46728" ph="SELECT id FR... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="46919:46978" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="47034:47080" ph="SELECT id FR... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="47258:47340" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="47558:47613" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="47796:47904" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="48508:48574" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="50201:50418" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="73492:73508" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="76500:76540" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="76699:76739" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="77242:77287" ph="..." />
+            <marker date="1490781638000" expanded="false" signature="77689:77702" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="81387:81407" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="82521:82540" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="82851:82867" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="83395:83583" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="85764:85804" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="85968:86008" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="87200:87245" ph="..." />
+            <marker date="1490781638000" expanded="false" signature="87667:87679" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="91037:91057" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="97586:97637" ph="SELECT MAX(i... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="99298:99354" ph="SELECT MAX(i... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="101040:101096" ph="SELECT MAX(i... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="102324:102377" ph="SELECT MAX(i... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="103597:103644" ph="DROP TABLE $... " />
+            <marker date="1490781638000" expanded="true" signature="103671:103682" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="103822:103869" ph="DROP TABLE $... " />
+            <marker date="1490781638000" expanded="true" signature="103896:103907" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="104028:104072" ph="DROP TABLE $... " />
+            <marker date="1490781638000" expanded="true" signature="104099:104110" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="104257:104299" ph="DROP TABLE $... " />
+            <marker date="1490781638000" expanded="true" signature="104326:104337" ph="..." />
+            <marker date="1490781638000" expanded="true" signature="113354:113450" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_faq... " />
+            <marker date="1490781638000" expanded="true" signature="113510:113604" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_faq... " />
+            <marker date="1490781638000" expanded="true" signature="113665:113753" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_faq... " />
+            <marker date="1490781638000" expanded="true" signature="113811:113896" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_faq... " />
+            <marker date="1490781638000" expanded="true" signature="113960:114049" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_faq... " />
+            <marker date="1490781638000" expanded="true" signature="114736:114834" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_question... " />
+            <marker date="1490781638000" expanded="true" signature="114897:114992" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_question... " />
+            <marker date="1490781638000" expanded="true" signature="115053:115148" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_question... " />
+            <marker date="1490781638000" expanded="true" signature="115214:115313" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_question... " />
+            <marker date="1490781638000" expanded="true" signature="115374:115469" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_question... " />
+            <marker date="1490781638000" expanded="true" signature="119139:119242" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="119306:119406" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="119477:119585" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="119657:119773" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="119841:119954" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="120026:120139" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="120214:120334" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="120404:120517" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="120586:120701" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="120767:120878" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="120945:121048" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="121121:121239" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="121303:121411" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="121481:121586" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="121654:121763" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="121832:121940" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="122007:122114" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="122181:122286" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="122355:122462" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="122530:122638" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="122697:122795" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="122864:122963" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="123026:123135" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="123202:123303" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="123363:123467" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="123529:123622" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="123682:123781" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="123845:123940" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="124002:124099" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="124163:124260" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="124326:124427" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="124493:124596" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="124657:124761" ph="ALTER TABLE ${$wpdb-&gt;prefix}spider_faq_theme... " />
+            <marker date="1490781638000" expanded="true" signature="124900:125333" ph="CREATE TABLE... IF" />
+            <marker date="1490781638000" expanded="true" signature="125352:125734" ph="CREATE TABLE... IF" />
+            <marker date="1490781638000" expanded="true" signature="125754:126122" ph="CREATE TABLE... IF" />
+            <marker date="1490781638000" expanded="true" signature="126140:129915" ph="CREATE TABLE... IF" />
+            <marker date="1490781638000" expanded="true" signature="129944:130211" ph="CREATE TABLE... IF" />
+            <marker date="1490781638000" expanded="true" signature="130383:130436" ph="SELECT MAX(i... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="130523:131357" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="131373:132158" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="132174:132965" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="132981:133764" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="133780:134544" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="134560:135326" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="135342:136126" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="136142:136926" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="136942:137697" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="137714:138485" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="138502:139275" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="139292:140081" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="140098:140900" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="140917:141708" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="141725:142628" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="142645:143544" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="143561:144464" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="145058:145208" ph="INSERT INTO `${$wpdb-&gt;prefix}spider_faq_category`... " />
+            <marker date="1490781638000" expanded="true" signature="163628:163675" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="164799:164844" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="165215:165268" ph="SELECT MAX(i... ${$wpdb-&gt;prefix}" />
+            <marker date="1490781638000" expanded="true" signature="165358:166320" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="166337:167386" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="167403:168454" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="168471:169413" ph="INSERT INTO `${$table_name}`... " />
+            <marker date="1490781638000" expanded="true" signature="169430:170524" ph="INSERT INTO `${$table_name}`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-527">
+          <caret line="351" column="0" lean-forward="true" selection-start-line="351" selection-start-column="0" selection-end-line="368" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webiots-testimonials/assets/js/slick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/slick.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2499">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../testimonials-showcase/form/js/jquery.validation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../testimonials-showcase/form/form-class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../testimonials-showcase/layouts/slider/layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2547">
-          <caret line="648" column="33" selection-start-line="648" selection-start-column="33" selection-end-line="648" selection-end-column="33" />
-          <folding>
-            <marker date="1489091679000" expanded="true" signature="31791:31797" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="32524:32536" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="40188:40200" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="44597:44798" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="49839:49980" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../testimonials-showcase/includes/class-layouts.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../testimonials-showcase/form/form.php">
+    <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-989">
-          <caret line="87" column="37" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="37" />
-          <folding>
-            <marker date="1489091679000" expanded="true" signature="23171:23294" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="23798:23998" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="24150:24310" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="24810:24873" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="25877:26029" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="26409:26462" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="26656:26786" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="27062:27096" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="27653:27840" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="28127:28172" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="28428:28589" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="30062:31447" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="30168:31447" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="31612:31647" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="31824:32034" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="32851:33063" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="33919:34079" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="34339:34394" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="34620:34840" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="35280:35466" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="36756:36767" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="37445:37709" ph="..." />
-            <marker date="1489091679000" expanded="false" signature="37573:37584" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="38601:38906" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="39302:39371" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="40656:40736" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../testimonials-showcase/ttshowcase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="676" column="19" selection-start-line="676" selection-start-column="14" selection-end-line="676" selection-end-column="19" />
-          <folding>
-            <marker date="1489091679000" expanded="true" signature="15063:15085" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="17931:18667" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="18117:18182" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="18264:18335" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="18418:18587" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="18622:18654" ph="..." />
-            <marker date="1489091679000" expanded="true" signature="24793:25053" ph="..." />
-            <marker date="1489091679000" expanded="false" signature="24834:24840" ph="..." />
-            <marker date="1489091679000" expanded="false" signature="24914:24920" ph="..." />
-            <marker date="1489091679000" expanded="false" signature="25000:25006" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../wp-ds-faq-plus-master/bin/install-wp-tests.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="508">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../wp-ds-faq-plus-master/wp-ds-faq.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="106" column="47" selection-start-line="106" selection-start-column="37" selection-end-line="106" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../arconix-faq-master/images/license.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/testimonials.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="267" column="1" selection-start-line="267" selection-start-column="1" selection-end-line="267" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/slick-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/slider/slide1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="63" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/function.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/slider/slide2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/slider/slide3.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="39" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="339" column="64" selection-start-line="339" selection-start-column="64" selection-end-line="339" selection-end-column="64" />
-          <folding>
-            <marker date="1506333986153" expanded="true" signature="8579:8591" ph="..." />
-            <marker date="1506333986153" expanded="true" signature="17434:17489" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/slider/slide4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding />
         </state>
       </provider>

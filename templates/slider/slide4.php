@@ -55,8 +55,9 @@
                                   <?php $value_testimonials_rate = get_post_meta($post->ID, "_testimonials_rate", true);
 
 
+
                                   if($value_testimonials_rate>0){
-                                      for($i=1;$i<=$value_testimonials_rate;$i++){
+                                      for($i=0;$i<$value_testimonials_rate;$i++){
                                           echo "<i class=\"fa fa-star\"></i>";
                                       } }else{
                                       $value_testimonials_rate =1;
@@ -85,7 +86,6 @@
 
             <?php
             $reviewCount++;
-
         }
         ?>
         <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">

@@ -1,5 +1,5 @@
 <section itemscope itemtype="http://schema.org/Product">
-    <div itemprop="name" content="product-reviews" class="regular wi-slider">
+    <div itemprop="name" content="product-reviews" class="regular wi-slider ">
     <?php
     $reviewCount = 0;
     $aggretated_rating = 0;
@@ -24,9 +24,9 @@
                 <div class="wi-card-body">
                     <!--Name-->
                     <div itemprop="author" itemscope itemtype="http://schema.org/Person">
-                        <h3 class="wi-card-title wi-mt-1"  itemprop="name">John Doe</h3>
+                        <h3 class="wi-card-title wi-mt-1"  itemprop="name"><?php echo get_post_meta($post->ID,"_testimonials_author_name", true); ?></h3>
                     </div>
-                    <h6 class="wi-mb-3 wi-font-bold wi-grey-text">[CEO]</h6>
+                    <h6 class="wi-mb-3 wi-font-bold wi-grey-text"><?php echo get_post_meta($post->ID, "_testimonials_designation", true); ?></h6>
                     <div class="wi-social-icons">
                         <ul class="list-inline">
                             <?php
@@ -59,8 +59,9 @@
                         <?php $value_testimonials_rate = get_post_meta($post->ID, "_testimonials_rate", true);
 
 
+
                         if($value_testimonials_rate>0){
-                            for($i=1;$i<=$value_testimonials_rate;$i++){
+                            for($i=0;$i<$value_testimonials_rate;$i++){
                                 echo "<i class=\"fa fa-star\"></i>";
                             } }else{
                             $value_testimonials_rate =1;

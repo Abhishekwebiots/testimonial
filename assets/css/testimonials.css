@@ -96,9 +96,12 @@ hr {
 .wi-card img {
     border-radius: 2px 2px 0 0;
 }
+
+
+
 .wi-testimonial-card .wi-card-body {
     text-align: center;
-    height: 253px;
+   
     font-family: sans-serif;
 }
 .wi-card-body {
@@ -233,10 +236,7 @@ hr {
     background-color: #2196F3!important;
 }
 /*slick slider*/
-.wi-slider {
-    width: 70%;
-    margin: 100px auto;
-}
+.wi-slider { width: 90%; margin: 0px auto; }
 .slick-slide {
     margin: 0px 20px;
     padding-bottom: 2px;

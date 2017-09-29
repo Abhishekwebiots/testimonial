@@ -89,10 +89,12 @@
 .slick-prev:before
 {
     content: '←';
+
 }
 [dir='rtl'] .slick-prev:before
 {
     content: '→';
+
 }
 
 .slick-next
@@ -107,6 +109,7 @@
 .slick-next:before
 {
     content: '→';
+margin-right:10px;
 }
 [dir='rtl'] .slick-next:before
 {

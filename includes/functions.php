@@ -297,8 +297,8 @@ new WEBIOTSTestimonails();
 function shortcode_webiots_testimonials( $atts ) {
 
 
-if(isset( $atts['slide'])){
-    $slide = $atts['slide'];//Getting Slide Templates
+if(isset( $atts['style'])){
+    $slide = $atts['style'];//Getting Slide Templates
 }
     if(isset( $atts['category'])) {
         $category = $atts['category'];
@@ -330,13 +330,13 @@ if(isset( $atts['slide'])){
         return false;
     }
     ob_start();
-    if($slide=="slider1"){
+    if($slide=="grid1"){
         include_once(TESTIMONAILS_PATH.'/templates/slider/slide1.php');
-    }else if($slide=="slider2"){
+    }else if($slide=="grid2"){
         include_once(TESTIMONAILS_PATH.'/templates/slider/slide2.php');
-    }else if($slide=="slider3"){
+    }else if($slide=="list1"){
         include_once(TESTIMONAILS_PATH.'/templates/slider/slide3.php');
-    }else if($slide=="slider4"){
+    }else if($slide=="list2"){
         include_once(TESTIMONAILS_PATH.'/templates/slider/slide4.php');
     }else{
         include_once(TESTIMONAILS_PATH.'/templates/slider/slide1.php');
@@ -349,6 +349,9 @@ if(isset( $atts['slide'])){
 
     wp_reset_postdata();
 }
+
+
+
 
 
 function shortcode_webiots_testimonials_form() {
@@ -703,4 +706,24 @@ function tsm_convert_id_to_term_in_query($query) {
         $term = get_term_by('id', $q_vars[$taxonomy], $taxonomy);
         $q_vars[$taxonomy] = $term->slug;
     }
+}
+
+function addon_vc_wi_testimonials() {
+vc_map( array(
+    "name" => __("Webiots Testimonials"),
+    "base" => "webiots-tm",
+    "category" => __('Testimonials'),
+    "icon"=> "vc_testimonial_icon",
+    "params" => array(
+        array(
+            "type" => "dropdown",
+            "holder" => "div",
+            "class" => "",
+            "heading" => __("Layouts"),
+            "param_name" => "style",
+            "value" => __(array("grid1","grid2","list1","list2","video"),"app_testimonials"),
+            "description" => __("Select the layout suitable according to your need")
+        )
+    )
+));
 }

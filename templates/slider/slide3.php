@@ -51,7 +51,7 @@
                             ?>
                         </ul>
                     </div>
-                  
+
 
                     <!--Review-->
                     <div class="wi-orange-text">
@@ -59,13 +59,14 @@
 
 
                         if($value_testimonials_rate>0){
-                            for($i=1;$i<=$value_testimonials_rate;$i++){
+                            for($i=0;$i<$value_testimonials_rate;$i++){
                                 echo "<i class=\"fa fa-star\"></i>";
                             } }else{
                             $value_testimonials_rate =1;
                             echo "<i class=\"fa fa-star\"></i>";
                         }
                         $aggretated_rating = intval($value_testimonials_rate)+$aggretated_rating;
+
                         ?>
                     </div>
                     <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">

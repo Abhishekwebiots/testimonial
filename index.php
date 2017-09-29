@@ -1,13 +1,13 @@
 <?php
 /*
-Plugin Name: Testimonials
+Plugin Name: Webiots Testimonials
 Plugin URI: https://www.webiots.com
-Description: Testimonials
+Description: Webiots Testimonials
 Version: 1.0
 Author: Webiots
 Author URI: https://www.webiots.com
 License: GPLv2 or later
-Text Domain: webiots-testimonials
+Text Domain: webiots-tm
 */
 
 
@@ -51,13 +51,9 @@ add_action( 'init', 'register_shortcodes_form' );
 
 
 function register_shortcodes() {
-    add_shortcode( 'webiots-testimonials', 'shortcode_webiots_testimonials' );
+    add_shortcode( 'webiots-tm', 'shortcode_webiots_testimonials' );
 }
 add_action( 'init', 'register_shortcodes' );
+add_action( 'vc_before_init', 'addon_vc_wi_testimonials' );
 
-/*
- *   Lists
- */
-
-// TODO Update Css
 
